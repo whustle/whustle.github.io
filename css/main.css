@@ -1949,7 +1949,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9d6244;
+  background: #ff3d94;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2852,7 +2852,7 @@ body {
   background: rgba(255,255,255,0.8) none repeat scroll !important;
 }
 #sidebar {
-  background: url("/images/sidebar.jpg");
+  background: url("/images/pxh.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
