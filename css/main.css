@@ -475,7 +475,7 @@ body {
   box-sizing: border-box;
   margin: 20px auto;
   width: 700px;
-  color: #ffb6c1;
+  color: #108dee;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
@@ -1950,7 +1950,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2581be;
+  background: #b39efe;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2104,7 +2104,7 @@ pre .javascript .function {
 }
 .footer-inner {
   text-align: center;
-  color: #ffb6c1;
+  color: #108dee;
 }
 .with-love {
   display: inline-block;
@@ -2862,7 +2862,7 @@ body {
 #sidebar p,
 #sidebar span,
 #sidebar a {
-  color: #fff;
+  color: #009bdb;
 }
 .aplayer-list ol li:hover {
 /*列表悬停颜色*/
