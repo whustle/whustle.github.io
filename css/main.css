@@ -475,7 +475,7 @@ body {
   box-sizing: border-box;
   margin: 20px auto;
   width: 700px;
-  color: #108dee;
+  color: #dd5044;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
@@ -1950,7 +1950,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b39efe;
+  background: #ff2abd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2104,7 +2104,7 @@ pre .javascript .function {
 }
 .footer-inner {
   text-align: center;
-  color: #108dee;
+  color: #dd5044;
 }
 .with-love {
   display: inline-block;
