@@ -1950,7 +1950,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2aff30;
+  background: #ff41f5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2878,6 +2878,8 @@ body {
 }
 #player1 {
 /*边框样式*/
+  width: 20px;
+  height: 10px;
   border-radius: 6px;
 }
 #player1 div,
