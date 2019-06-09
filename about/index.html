@@ -141,7 +141,7 @@
 <meta property="og:site_name" content="whustle blog">
 <meta property="og:description" content="我是whustle 博客写的不好请见谅">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-08T10:33:35.486Z">
+<meta property="og:updated_time" content="2019-06-09T10:24:29.632Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于">
 <meta name="twitter:description" content="我是whustle 博客写的不好请见谅">
@@ -558,8 +558,27 @@
             </div>
           
 	  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="https://music.163.com/outchain/player?type=1&id=35338908&auto=0&height=430"></iframe>
-          
-
+          <div id="player1" class="aplayer"></div>
+<script src="/js/src/APlayer.min.js"></script>
+<script type="text/javascript">
+var ap = new APlayer({
+    element: document.getElementById('player1'),                       // Optional, player element
+    narrow: false,                                                     // Optional, narrow style
+    autoplay: false,                                                    // Optional, autoplay song(s), not supported by mobile browsers
+    showlrc: 0,                                                        // Optional, show lrc, can be 0, 1, 2, see: ###With lrc
+    mutex: true,                                                       // Optional, pause other players when this player playing
+    theme: '#e6d0b2',                                                  // Optional, theme color, default: #b7daff
+    mode: 'random',                                                    // Optional, play mode, can be `random` `single` `circulation`(loop) `order`(no loop), default: `circulation`
+    preload: 'metadata',                                               // Optional, the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'
+    listmaxheight: '513px',                                             // Optional, max height of play list
+    music: {                                                           // Required, music info, see: ###With playlist
+        title: 'Despacito',                                          // Required, music title
+        author: 'Luis Fonsi',                                              // Required, music author
+        url: 'http://music.163.com/song/media/outer/url?id=472361096.mp3',                // Required, music url
+        pic: 'http://p1.music.126.net/vA4UF75gS1Qpyx07B0acrw==/18521273371761277.jpg',                                   // Optional, music picture
+    }
+});
+</script>
 
         </div>
 		<!--my custom code begin-->
