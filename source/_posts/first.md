@@ -1,3 +1,8 @@
+---
+title: first
+categories: -hexo
+---
+
 #第一个博客
 * 安装node.js
 * 安装npm 淘宝镜像

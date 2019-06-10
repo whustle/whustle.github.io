@@ -12,9 +12,9 @@ var ap = new APlayer({
     preload: 'metadata',                                               // Optional, the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'
     listmaxheight: '513px',                                             // Optional, max height of play list
     music: {                                                           // Required, music info, see: ###With playlist
-        title: 'ä½ æ›¾æ˜¯å°‘å¹´',                                          // Required, music title
-        author: 'cover',                          // Required, music author
-        url: 'http://mp3.qqmusic.cc/yq/102426570.mp3',  // Required, music url
+        title: 'ÄÇ¸öÅ®º¢',                                          // Required, music title
+        author: 'ÕÅÔóÎõ',                          // Required, music author
+        url: 'http://music.163.com/song/media/outer/url?id=1300994613.mp3',  // Required, music url
         pic: '/images/visitor.jpg',  // Optional, music picture
     }
 });
